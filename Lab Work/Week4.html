@@ -1,0 +1,72 @@
+Skip to content
+Why GitHub? 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+Sign in
+Sign up
+vii-sem
+/
+vii-a-Banda-Preeta
+00
+Code
+Issues
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+vii-a-Banda-Preeta/Source Codes/Program_4.html
+@Banda-Preeta
+Banda-Preeta Create Program_4.html
+Latest commit 82c9656 3 days ago
+ History
+ 1 contributor
+28 lines (28 sloc)  680 Bytes
+  
+<html> 
+    <body> 
+    <p id="demo"></p> 
+    <script> 
+    var var1 = setInterval(inTimer, 1); 
+    var size = 5; 
+    var ids = document.getElementById("demo"); 
+    function inTimer() 
+    { 
+    ids.innerHTML = 'TEXT GROWING'; 
+    ids.setAttribute('style', "font-size: " + size + "px; color: red"); 
+    size += 0.1; 
+    if(size >= 50 )
+    { 
+    clearInterval(var1); 
+    var2 = setInterval(deTimer, 1);
+    } 
+    } 
+    function deTimer() { 
+    size -= 0.1; 
+    ids.innerHTML = 'TEXT SHRINKING'; 
+    ids.setAttribute('style', "font-size: " + size + "px; color: blue"); if(size == 5 ){ 
+    clearInterval(var2); 
+    } 
+    } 
+    </script> 
+    </body> 
+    </html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
